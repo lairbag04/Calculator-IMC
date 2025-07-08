@@ -32,13 +32,6 @@ Esse projeto foi desenvolvido com o objetivo de:
 
 ---
 
-## 📸 Demonstração
-
-![Demonstração do Projeto]((https://imgur.com/DXXZ9jB))
-
-![Demonstração do Projeto]((https://imgur.com/DXXZ9jB](https://imgur.com/mzxfjU0)).
----
-
 ## 📁 Como rodar o projeto
 
 1. Clone o repositório:

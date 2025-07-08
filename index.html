@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de IMC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+     rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="imagens/logo.png">
+</head>
+<body> 
+
+  <div class="container">
+    <div class="calculator">
+      <h2 class="tittle">Calculadora de IMC</h2>
+      <hr class="linhaTittle">
+      <label class="label" for="peso">Peso (kg):</label>
+      <input type="number" id="peso" placeholder="Ex: 70">
+
+      <label class="label" for="altura">Altura (cm):</label>
+      <input type="number" id="altura" placeholder="Ex: 170">
+      <hr class="linha">
+      <div class="botoes">
+        <button onclick="calcularIMC()">Calcular</button>
+        <button onclick="limpar()">Limpar</button>
+      </div>  
+      <div class="creditos">
+        Coded by <a href="https://www.linkedin.com/in/gabrielgomes04/" target="_blank">Gabriel Gomes </a>
+        <div>Software Developer</div>
+      </div>
+    </div> 
+
+    <div class="resultado" id="resultado" style="display: none;">
+      <div class="resultado-container">
+        <img id="imagem" src="" alt="Imagem de estado corporal" />
+        <div class="resultado-texto">
+          <h3>Seu IMC é de :</h3>
+          <p id="valorIMC"></p> 
+          <p id="mensagem"></p> 
+          <hr class="linhaImagem">
+        </div>
+      </div>
+    </div> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
